@@ -29,7 +29,7 @@ describe('Alterar um dispositivo', () => {
 
         cy.request({
             method: 'POST',
-            url: 'https://api.restful-api.dev/objects',
+            url: '/objects',
             failOnStatusCode: false,
             body: body_cadastro 
         }).as('postDeviceResult')
@@ -40,7 +40,7 @@ describe('Alterar um dispositivo', () => {
 
             cy.request({
                 method: 'PUT',
-                url: `https://api.restful-api.dev/objects/${response_post.body.id}`,
+                url: `/objects/${response_post.body.id}`,
                 failOnStatusCode: false,
                 body: body_update
             }).as('putDeviceResult')

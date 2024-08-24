@@ -9,7 +9,7 @@ describe('Buscar dispostivos', () => {
 
         cy.request({
             method: 'GET',
-            url: `https://api.restful-api.dev/objects/${device_id}`,
+            url: `/objects/${device_id}`,
             failOnStatusCode: false
         }).as('getDeviceResult')
 

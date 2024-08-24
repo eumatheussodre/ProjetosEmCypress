@@ -38,4 +38,21 @@ describe('Deletar um dispositivo', () => {
         })
 
     })
+
+    it.only('Deletar um dispositivo não existente', () => {
+
+        const id_inexistente = 'matheus'
+
+        cy.request({
+                    method: 'DELETE',
+                    url: `/objects/${id_inexistente}`,
+                    failOnStatusCode: false
+                }).as('deleteDeviceResult')
+    
+                cy.get('@deleteDeviceResult').then((response_del) => {
+                    expect(response_del.status).equal(404)
+                    expect(response_del.body.error)
+                        .equal(`Object with id = ${id_inexistente} doesn't exist.`)
+                })
+    })
 })
