@@ -1,0 +1,18 @@
+# Ignore files related to dependencies, except node_modules
+.DS_Store
+*.log
+*.env
+dist/
+coverage/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.json
+
+# Uncomment the line below to ignore node_modules
+node_modules/
+
+# Ignore operating system files
+Thumbs.db
+ehthumbs.db
