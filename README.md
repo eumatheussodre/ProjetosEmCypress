@@ -6,7 +6,7 @@
 
 <h3>📂 <a href="https://github.com/eumatheussodre/ProjetosEmCypress/tree/main/ProjetoQazando">Projeto 1: Automação no Site - QAzando Shop</a></h3>
 <p><strong>Descrição:</strong> Este projeto demonstra a automação de testes de interface de usuário utilizando Cypress. Inclui exemplos de testes de cadastro, validando se está respeitando os criterios de aceite, navegação e validação de elementos.</p>
-<p align="center"><img src="https://github.com/eumatheussodre/ProjetosEmCypress/tree/main/ProjetoQazando/videoCadastroUsuario.gif" p/>
+<p align="center"><img src="[https://github.com/eumatheussodre/ProjetosEmCypress/tree/main/ProjetoQazando/videoCadastroUsuario.gif](https://github.com/eumatheussodre/ProjetosEmCypress/blob/main/ProjetoQazando/videoCadastroUsuario.gif)" p/>
 
 <h3>📂 <a href="https://github.com/eumatheussodre/ProjetosEmCypress/tree/main/ProjetoQazandoAPI">Projeto 2: Teste de API</a></h3>
 <p><strong>Descrição:</strong> Este projeto demonstra a automação de testes de interface de usuário utilizando Cypress. Inclui exemplos de testes de DEL, PUT, GET e POST.
